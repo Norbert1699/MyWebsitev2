@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Patrick+Hand+SC");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none; }
+
+.container {
+  height: 100%;
+  margin: auto;
+  max-width: 1300px; }
+
+a:hover {
+  text-decoration: none; }
+
+body {
+  background-color: #3498db; }
+
+.top-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  vertical-align: middle; }
+
+#name {
+  font-size: 4em;
+  font-family: "Josefin Sans";
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 300px; }
+
+.arrow {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  text-align: center;
+  margin-top: auto;
+  width: 100%; }
+  .arrow img {
+    width: 6.2em;
+    height: 4.5em; }
+
+#title {
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 2em;
+  color: white;
+  text-align: center; }
+
+.section-one {
+  background-color: white;
+  height: 400px; }
+  .section-one img {
+    position: absolute;
+    margin-top: 3em;
+    width: 440px;
+    height: 350px; }
+  .section-one .caption {
+    margin-top: 6.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; }
+    .section-one .caption .section-main {
+      margin-bottom: 20px;
+      font-size: 2.5em;
+      font-family: "Open Sans";
+      color: #3498db; }
+  .section-one p {
+    font-family: "Open Sans";
+    color: #7C7C7C;
+    font-weight: 300; }
+
+.section-two {
+  background-color: #223C58;
+  height: 400px;
+  margin-bottom: -20px; }
+  .section-two .graphic {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+    .section-two .graphic img {
+      margin-top: 30px;
+      width: 340px;
+      height: 360px; }
+  .section-two .caption-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 30px; }
+    .section-two .caption-two a {
+      color: white; }
+  .section-two #section-main-two {
+    font-size: 2em;
+    font-family: "Open Sans";
+    color: white; }
+  .section-two p {
+    font-family: "Open Sans";
+    color: #B7B7B7;
+    font-weight: 300;
+    display: inline-block; }
+
+.section-three {
+  background-color: white;
+  margin-top: 20px;
+  height: 400px; }
+  .section-three .section-three-title {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-family: "Open Sans";
+    color: #3498db; }
+
+h3 {
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #7C7C7C; }
+
+.skills-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0; }
+
+.skills-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 26px; }
+  .skills-right .progress {
+    margin-bottom: 40px; }
+    .skills-right .progress:last-child {
+      margin-bottom: 0; }
+
+footer {
+  background-color: #223C58;
+  height: 200px; }
+  footer .footer-main-text {
+    font-family: "Open Sans";
+    color: white;
+    margin-top: 20px; }
+  footer .flex-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+    padding: 0; }
+    footer .flex-left li {
+      font-family: "Open Sans";
+      color: white;
+      margin-bottom: 5px; }
+  footer .flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px; }
+    footer .flex-center li {
+      font-family: "Open Sans";
+      color: white;
+      margin-bottom: 5px; }
+  footer .flex-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 15px; }
+    footer .flex-right .watermark {
+      font-family: "Open Sans";
+      color: white;
+      margin-left: 420px; }
+
+/*# sourceMappingURL=main.css.map */
